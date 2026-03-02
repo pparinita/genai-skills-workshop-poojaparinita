@@ -278,7 +278,7 @@ model = GenerativeModel(
 # back to your actual Python functions.
 def execute_tool_call(call):
     # In a real application, securely load your API key here
-    GOOGLE_MAPS_API_KEY = "AIzaSyCnScseVhdCkZUPwXbXmCfaOs-4hSq1k28" # Replace with your actual key
+    GOOGLE_MAPS_API_KEY = "MyApi" # Replace with your actual key
 
     if call.function.name == "geocode_place":
         place_name = call.function.args["place_name"]
