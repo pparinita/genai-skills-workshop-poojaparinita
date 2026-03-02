@@ -105,7 +105,7 @@ def geocode_place(place_name, api_key):
 if __name__ == "__main__":
     # Replace 'YOUR_GOOGLE_CLOUD_API_KEY' with your actual API key
     # Ensure the Geocoding API is enabled in your Google Cloud project
-    api_key = "AIzaSyCnScseVhdCkZUPwXbXmCfaOs-4hSq1k28"
+    api_key = "MyAPIKey"
 
     place = "Googleplex, Mountain View, CA"
     coordinates = geocode_place(place, api_key)
