@@ -120,7 +120,7 @@ if __name__ == "__main__":
 
 # Example usage:
 # Replace "YOUR_GOOGLE_GEOCODING_API_KEY" with your actual API key
-google_api_key = "AIzaSyCnScseVhdCkZUPwXbXmCfaOs-4hSq1k28"
+google_api_key = "xxxx-4hSq1k28"
 address_to_geocode = "Eiffel Tower, Paris"
 
 # tools.py (or integrated into your agent's code)
